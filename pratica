@@ -1,0 +1,36 @@
+function olaMundo() {
+    console.log("Ola Mundo");
+}
+
+function funcaoNome(nome) {
+    console.log(nome);
+}
+
+function dobrarNumero(numero) {
+    console.log(numero * 2);
+}
+
+function media(num1, num2, num3) {
+    return console.log("A media é", (num1 + num2 + num3) / 3);
+}
+
+function maior(num1, num2) {
+    if (num1 > num2) {
+        return console.log("o numero 1 é maior q o numero 2 ," + num1, "> " + num2);
+    } else if (num2 > num1) {
+        return console.log("o numero 2 é maior q o numero 1 ," + num2, "> " + num1);
+    } else {
+        return console.log("Os doi numeros são iguais " + num1, "=" + num2)
+    }
+}
+
+function numero(num) {
+    return console.log(num * num);
+}
+
+olaMundo();
+funcaoNome("Luiz");
+dobrarNumero(5);
+media(5, 5, 5);
+maior(5, 7);
+numero(5);
